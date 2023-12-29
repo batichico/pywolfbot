@@ -56,7 +56,7 @@ touch pywolfbot/plugins/events/{start.py,welcomes.py} && \
 mkdir -p pywolfbot/.github/config && \
 touch pywolfbot/.github/workflows/ci.yaml && \
 touch pywolfbot/.github/config/{env_variables.env,errbot_config_vars.py}
-
+```
 
 This command will create the necessary directory structure and files for the PyWolfBot project in a single step.
 
