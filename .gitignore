@@ -7,4 +7,4 @@ env/
 
 # Ignore environment variables file in the config folder
 config/*
-!config/env_variables.env
+!errbot_config_vars.py
