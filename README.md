@@ -61,10 +61,10 @@ touch pywolfbot/.github/config/{env_variables.env,errbot_config_vars.py}
 This command will create the necessary directory structure and files for the PyWolfBot project in a single step.
 
 [!NOTE]
-If you encounter issues or want to contribute, please create an issue in the repository.
+> If you encounter issues or want to contribute, please create an issue in the repository.
 
 [!TIP]
-Remember to review the project structure and modify configuration files as needed before deploying.
+> Remember to review the project structure and modify configuration files as needed before deploying.
 
 ## License
 
