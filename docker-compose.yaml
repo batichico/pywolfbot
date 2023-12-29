@@ -1,0 +1,13 @@
+version: '3'
+services:
+  errbot:
+    build: .
+    volumes:
+      - ./config/env_variables.env:/app/config/env_variables.env
+      - ./config/errbot_config_vars.py:/app/config/errbot_config_vars.py
+      - ./errbot_config.py:/app/errbot_config.py
+      - ./functions:/app/functions
+      - ./plugins:/app/plugins
+      - ./app:/app/app
+    env_file:
+      - ./config/env_variables.env
